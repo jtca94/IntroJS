@@ -18,9 +18,6 @@ btnCalcular.addEventListener("click", () => {
     else if (cantidad.value <= 0) {
         cantidad.value = `${cero}`;
     }
-    else if (cantidad.value = Number.isSafeInteger) {
-        cantidad.value = "si";
-    }
     else {
         const multiplicacion = valor*cantidad.value
         total.innerHTML = Intl.NumberFormat('de-DE').format(multiplicacion);

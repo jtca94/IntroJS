@@ -22,6 +22,5 @@ btnCalcular.addEventListener("click", () => {
         const multiplicacion = valor*cantidad.value
         total.innerHTML = Intl.NumberFormat('de-DE').format(multiplicacion);
     }
-
 })
      
